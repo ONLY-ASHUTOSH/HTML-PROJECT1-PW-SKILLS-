@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shape{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px,solid,black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+#box1{
+    
+}
+#box2{
+    rotate: 45deg;
+    margin-top: 40px;
+    
+}
+#box2 p{
+    rotate: -45deg;
+}
+#box3{
+   border-radius: 50%;
+}
+.shape p{
+    font-weight: bold;
+    font-size: 30px;
+}
+#box1:hover{
+    background-color: red;
+}
+#box2:hover{
+    background-color: rgb(29, 86, 255);
+}
+#box3:hover{
+    background-color: rgb(17, 244, 17);
+}
